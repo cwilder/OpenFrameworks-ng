@@ -7,7 +7,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <AVFoundation/AVFoundation.h>
-#import <CoreGraphics/CoreGraphics.h>s
+#import <CoreGraphics/CoreGraphics.h>
 
 #import <CoreVideo/CoreVideo.h>
 #import <CoreMedia/CoreMedia.h>
