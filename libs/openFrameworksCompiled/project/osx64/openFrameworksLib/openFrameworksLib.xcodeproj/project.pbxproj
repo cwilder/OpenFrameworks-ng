@@ -7,30 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA61BBDE16F8FF1000155846 /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBDD16F8FF1000155846 /* libcairo.a */; };
-		CA61BBE016F8FF3B00155846 /* libfreeimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBDF16F8FF3B00155846 /* libfreeimage.a */; };
-		CA61BBE216F8FF4A00155846 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBE116F8FF4A00155846 /* libfreetype.a */; };
-		CA61BBE616F8FF5C00155846 /* libPocoFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBE316F8FF5C00155846 /* libPocoFoundation.a */; };
-		CA61BBE716F8FF5C00155846 /* libPocoNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBE416F8FF5C00155846 /* libPocoNet.a */; };
-		CA61BBE816F8FF5C00155846 /* libPocoUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBE516F8FF5C00155846 /* libPocoUtil.a */; };
-		CA61BBEA16F8FF6E00155846 /* librtaudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBE916F8FF6E00155846 /* librtaudio.a */; };
-		CA61BBEC16F8FF7C00155846 /* libkiss_fft.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBEB16F8FF7C00155846 /* libkiss_fft.a */; };
-		CA61BBEE16F8FF8A00155846 /* libtess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBED16F8FF8A00155846 /* libtess.a */; };
-		CA61BC0216F9056100155846 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BC0116F9056100155846 /* libpixman-1.a */; };
-		CA77EB351713F75300170E3C /* libassimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA77EB341713F75300170E3C /* libassimp.a */; };
-		CA9B06BE16FC278C006E8AD3 /* libPocoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9B06BD16FC278C006E8AD3 /* libPocoXML.a */; };
 		CAC3C71B1703AE800062BF8A /* ofVideoPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D19916F8C319004A69DA /* ofVideoPlayer.cpp */; };
 		CAC3C71E1703AFE10062BF8A /* ofQtUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D19116F8C319004A69DA /* ofQtUtils.cpp */; };
 		CAC3C7261703B2310062BF8A /* AVFoundationVideoGrabber.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAC3C7231703B2310062BF8A /* AVFoundationVideoGrabber.mm */; };
 		CAC3C7271703B2310062BF8A /* AVFoundationVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC3C7251703B2310062BF8A /* AVFoundationVideoPlayer.m */; };
 		CAC3C72E1703D27D0062BF8A /* ofAVFoundationVideoGrabber.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAC3C72B1703D27D0062BF8A /* ofAVFoundationVideoGrabber.mm */; };
 		CAC3C72F1703D27D0062BF8A /* ofAVFoundationVideoPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAC3C72D1703D27D0062BF8A /* ofAVFoundationVideoPlayer.mm */; };
-		CAC3C7331704C7350062BF8A /* libsndfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C7321704C7350062BF8A /* libsndfile.a */; };
-		CAC3C7351704C8040062BF8A /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C7341704C8030062BF8A /* libFLAC.a */; };
-		CAC3C7371704C8B00062BF8A /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C7361704C8B00062BF8A /* libogg.a */; };
-		CAC3C73B1704CA2F0062BF8A /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C7381704CA2F0062BF8A /* libvorbis.a */; };
-		CAC3C73C1704CA2F0062BF8A /* libvorbisenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C7391704CA2F0062BF8A /* libvorbisenc.a */; };
-		CAC3C73D1704CA2F0062BF8A /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C73A1704CA2F0062BF8A /* libvorbisfile.a */; };
 		CAC9D19B16F8C319004A69DA /* of3dUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D10816F8C318004A69DA /* of3dUtils.cpp */; };
 		CAC9D19D16F8C319004A69DA /* ofCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D10A16F8C318004A69DA /* ofCamera.cpp */; };
 		CAC9D19F16F8C319004A69DA /* ofEasyCam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D10C16F8C318004A69DA /* ofEasyCam.cpp */; };
@@ -85,6 +67,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		196CB4D1172974AC005ECA70 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		196CB4D2172974AC005ECA70 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../Debug.xcconfig; sourceTree = "<group>"; };
+		196CB4D3172974AC005ECA70 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../Release.xcconfig; sourceTree = "<group>"; };
+		196CB4D4172974AC005ECA70 /* Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Shared.xcconfig; path = ../Shared.xcconfig; sourceTree = "<group>"; };
 		CA61BBDD16F8FF1000155846 /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcairo.a; path = ../../../../cairo/lib/osx64/libcairo.a; sourceTree = "<group>"; };
 		CA61BBDF16F8FF3B00155846 /* libfreeimage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreeimage.a; path = ../../../../FreeImage/lib/osx64/libfreeimage.a; sourceTree = "<group>"; };
 		CA61BBE116F8FF4A00155846 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = ../../../../freetype/lib/osx64/libfreetype.a; sourceTree = "<group>"; };
@@ -185,7 +171,7 @@
 		CAC9D15416F8C319004A69DA /* ofVec4f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofVec4f.cpp; sourceTree = "<group>"; };
 		CAC9D15516F8C319004A69DA /* ofVec4f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofVec4f.h; sourceTree = "<group>"; };
 		CAC9D15616F8C319004A69DA /* ofVectorMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofVectorMath.h; sourceTree = "<group>"; };
-		CAC9D15716F8C319004A69DA /* ofMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofMain.h; path = ../ofMain.h; sourceTree = "<group>"; };
+		CAC9D15716F8C319004A69DA /* ofMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofMain.h; path = ../../../../openFrameworks/ofMain.h; sourceTree = SOURCE_ROOT; };
 		CAC9D15916F8C319004A69DA /* ofBaseSoundPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofBaseSoundPlayer.cpp; sourceTree = "<group>"; };
 		CAC9D15A16F8C319004A69DA /* ofBaseSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofBaseSoundPlayer.h; sourceTree = "<group>"; };
 		CAC9D15B16F8C319004A69DA /* ofBaseSoundStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofBaseSoundStream.cpp; sourceTree = "<group>"; };
@@ -256,31 +242,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA61BBDE16F8FF1000155846 /* libcairo.a in Frameworks */,
-				CA61BC0216F9056100155846 /* libpixman-1.a in Frameworks */,
-				CA61BBE016F8FF3B00155846 /* libfreeimage.a in Frameworks */,
-				CA61BBE216F8FF4A00155846 /* libfreetype.a in Frameworks */,
-				CA61BBE616F8FF5C00155846 /* libPocoFoundation.a in Frameworks */,
-				CA61BBE716F8FF5C00155846 /* libPocoNet.a in Frameworks */,
-				CA61BBE816F8FF5C00155846 /* libPocoUtil.a in Frameworks */,
-				CA61BBEA16F8FF6E00155846 /* librtaudio.a in Frameworks */,
-				CA61BBEC16F8FF7C00155846 /* libkiss_fft.a in Frameworks */,
-				CA61BBEE16F8FF8A00155846 /* libtess.a in Frameworks */,
-				CA9B06BE16FC278C006E8AD3 /* libPocoXML.a in Frameworks */,
-				CAC3C7331704C7350062BF8A /* libsndfile.a in Frameworks */,
-				CAC3C7351704C8040062BF8A /* libFLAC.a in Frameworks */,
-				CAC3C7371704C8B00062BF8A /* libogg.a in Frameworks */,
-				CAC3C73B1704CA2F0062BF8A /* libvorbis.a in Frameworks */,
-				CAC3C73C1704CA2F0062BF8A /* libvorbisenc.a in Frameworks */,
-				CAC3C73D1704CA2F0062BF8A /* libvorbisfile.a in Frameworks */,
-				CA77EB351713F75300170E3C /* libassimp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CAC9D0F716F8C16C004A69DA = {
+		196CB4B817297209005ECA70 /* libs */ = {
 			isa = PBXGroup;
 			children = (
 				CA77EB341713F75300170E3C /* libassimp.a */,
@@ -290,18 +258,30 @@
 				CAC3C7341704C8030062BF8A /* libFLAC.a */,
 				CAC3C7361704C8B00062BF8A /* libogg.a */,
 				CAC3C7321704C7350062BF8A /* libsndfile.a */,
-				CA9B06BD16FC278C006E8AD3 /* libPocoXML.a */,
-				CA61BC0116F9056100155846 /* libpixman-1.a */,
-				CA61BBDF16F8FF3B00155846 /* libfreeimage.a */,
-				CA61BBE116F8FF4A00155846 /* libfreetype.a */,
-				CA61BBDD16F8FF1000155846 /* libcairo.a */,
 				CA61BBE316F8FF5C00155846 /* libPocoFoundation.a */,
 				CA61BBE416F8FF5C00155846 /* libPocoNet.a */,
 				CA61BBE516F8FF5C00155846 /* libPocoUtil.a */,
+				CA9B06BD16FC278C006E8AD3 /* libPocoXML.a */,
+				CA61BBDD16F8FF1000155846 /* libcairo.a */,
+				CA61BC0116F9056100155846 /* libpixman-1.a */,
+				CA61BBDF16F8FF3B00155846 /* libfreeimage.a */,
+				CA61BBE116F8FF4A00155846 /* libfreetype.a */,
 				CA61BBE916F8FF6E00155846 /* librtaudio.a */,
 				CA61BBEB16F8FF7C00155846 /* libkiss_fft.a */,
 				CA61BBED16F8FF8A00155846 /* libtess.a */,
-				CAC9D22416F8C31F004A69DA /* src */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		CAC9D0F716F8C16C004A69DA = {
+			isa = PBXGroup;
+			children = (
+				196CB4D1172974AC005ECA70 /* CoreOF.xcconfig */,
+				196CB4D2172974AC005ECA70 /* Debug.xcconfig */,
+				196CB4D3172974AC005ECA70 /* Release.xcconfig */,
+				196CB4D4172974AC005ECA70 /* Shared.xcconfig */,
+				CAC9D22416F8C31F004A69DA /* openFrameworks */,
+				196CB4B817297209005ECA70 /* libs */,
 				CAC9D10116F8C16C004A69DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -329,7 +309,8 @@
 				CAC9D11116F8C318004A69DA /* ofNode.h */,
 			);
 			name = 3d;
-			sourceTree = "<group>";
+			path = ../../../../openFrameworks/3d;
+			sourceTree = SOURCE_ROOT;
 		};
 		CAC9D11216F8C318004A69DA /* app */ = {
 			isa = PBXGroup;
@@ -342,8 +323,8 @@
 				CAC9D11816F8C318004A69DA /* ofBaseApp.h */,
 			);
 			name = app;
-			path = ../app;
-			sourceTree = "<group>";
+			path = ../../../../openFrameworks/app;
+			sourceTree = SOURCE_ROOT;
 		};
 		CAC9D11916F8C318004A69DA /* communication */ = {
 			isa = PBXGroup;
@@ -354,8 +335,8 @@
 				CAC9D11D16F8C319004A69DA /* ofSerial.h */,
 			);
 			name = communication;
-			path = ../communication;
-			sourceTree = "<group>";
+			path = ../../../../openFrameworks/communication;
+			sourceTree = SOURCE_ROOT;
 		};
 		CAC9D11E16F8C319004A69DA /* events */ = {
 			isa = PBXGroup;
@@ -365,8 +346,8 @@
 				CAC9D12116F8C319004A69DA /* ofEventUtils.h */,
 			);
 			name = events;
-			path = ../events;
-			sourceTree = "<group>";
+			path = ../../../../openFrameworks/events;
+			sourceTree = SOURCE_ROOT;
 		};
 		CAC9D12216F8C319004A69DA /* gl */ = {
 			isa = PBXGroup;
@@ -390,8 +371,8 @@
 				CAC9D13316F8C319004A69DA /* ofVboMesh.h */,
 			);
 			name = gl;
-			path = ../gl;
-			sourceTree = "<group>";
+			path = ../../../../openFrameworks/gl;
+			sourceTree = SOURCE_ROOT;
 		};
 		CAC9D13416F8C319004A69DA /* graphics */ = {
 			isa = PBXGroup;
@@ -417,8 +398,8 @@
 				CAC9D14716F8C319004A69DA /* ofTrueTypeFont.h */,
 			);
 			name = graphics;
-			path = ../graphics;
-			sourceTree = "<group>";
+			path = ../../../../openFrameworks/graphics;
+			sourceTree = SOURCE_ROOT;
 		};
 		CAC9D14816F8C319004A69DA /* math */ = {
 			isa = PBXGroup;
@@ -439,8 +420,8 @@
 				CAC9D15616F8C319004A69DA /* ofVectorMath.h */,
 			);
 			name = math;
-			path = ../math;
-			sourceTree = "<group>";
+			path = ../../../../openFrameworks/math;
+			sourceTree = SOURCE_ROOT;
 		};
 		CAC9D15816F8C319004A69DA /* sound */ = {
 			isa = PBXGroup;
@@ -463,8 +444,8 @@
 				CAC9D16816F8C319004A69DA /* ofSoundStream.h */,
 			);
 			name = sound;
-			path = ../sound;
-			sourceTree = "<group>";
+			path = ../../../../openFrameworks/sound;
+			sourceTree = SOURCE_ROOT;
 		};
 		CAC9D16916F8C319004A69DA /* types */ = {
 			isa = PBXGroup;
@@ -480,8 +461,8 @@
 				CAC9D17216F8C319004A69DA /* ofTypes.h */,
 			);
 			name = types;
-			path = ../types;
-			sourceTree = "<group>";
+			path = ../../../../openFrameworks/types;
+			sourceTree = SOURCE_ROOT;
 		};
 		CAC9D17316F8C319004A69DA /* utils */ = {
 			isa = PBXGroup;
@@ -502,8 +483,8 @@
 				CAC9D18116F8C319004A69DA /* ofUtils.h */,
 			);
 			name = utils;
-			path = ../utils;
-			sourceTree = "<group>";
+			path = ../../../../openFrameworks/utils;
+			sourceTree = SOURCE_ROOT;
 		};
 		CAC9D18216F8C319004A69DA /* video */ = {
 			isa = PBXGroup;
@@ -542,12 +523,13 @@
 				CAC9D19A16F8C319004A69DA /* ofVideoPlayer.h */,
 			);
 			name = video;
-			path = ../video;
-			sourceTree = "<group>";
+			path = ../../../../openFrameworks/video;
+			sourceTree = SOURCE_ROOT;
 		};
-		CAC9D22416F8C31F004A69DA /* src */ = {
+		CAC9D22416F8C31F004A69DA /* openFrameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CAC9D15716F8C319004A69DA /* ofMain.h */,
 				CAC9D10716F8C318004A69DA /* 3d */,
 				CAC9D11216F8C318004A69DA /* app */,
 				CAC9D11916F8C318004A69DA /* communication */,
@@ -555,15 +537,14 @@
 				CAC9D12216F8C319004A69DA /* gl */,
 				CAC9D13416F8C319004A69DA /* graphics */,
 				CAC9D14816F8C319004A69DA /* math */,
-				CAC9D15716F8C319004A69DA /* ofMain.h */,
 				CAC9D15816F8C319004A69DA /* sound */,
 				CAC9D16916F8C319004A69DA /* types */,
 				CAC9D17316F8C319004A69DA /* utils */,
 				CAC9D18216F8C319004A69DA /* video */,
 			);
-			name = src;
-			path = ../../../../openFrameworks/3d;
-			sourceTree = "<group>";
+			name = openFrameworks;
+			path = ../../../../openFrameworks;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -591,7 +572,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Nathan Rausch";
+				ORGANIZATIONNAME = "";
 			};
 			buildConfigurationList = CAC9D0FB16F8C16C004A69DA /* Build configuration list for PBXProject "openFrameworksLib" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -680,6 +661,7 @@
 /* Begin XCBuildConfiguration section */
 		CAC9D10216F8C16C004A69DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196CB4D2172974AC005ECA70 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -723,6 +705,7 @@
 		};
 		CAC9D10316F8C16C004A69DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196CB4D3172974AC005ECA70 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -760,48 +743,76 @@
 		CAC9D10516F8C16C004A69DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_X86_VECTOR_INSTRUCTIONS = sse4.2;
 				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				HEADER_SEARCH_PATHS = "$(OF_CORE_HEADERS)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../fmodex/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../cairo/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../FreeImage/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../freetype/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../poco/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../rtAudio/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../kiss/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../tess2/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../sndfile/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../flac/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../ogg/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../vorbis/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../assimp/lib/osx64\"",
+					"$(OF_CORE_LIBS)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-lpthread",
+				);
+				OTHER_LDFLAGS = (
+					"$(LIB_POCO_1)",
+					"$(LIB_POCO_2)",
+					"$(LIB_POCO_3)",
+					"$(LIB_POCO_4)",
+					"$(LIB_CAIRO_1)",
+					"$(LIB_CAIRO_2)",
+					"$(LIB_TESS2)",
+					"$(LIB_FMODEX)",
+					"$(LIB_RTAUDIO)",
+					"$(LIB_ASSIMP)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
 		CAC9D10616F8C16C004A69DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_X86_VECTOR_INSTRUCTIONS = sse4.2;
 				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				HEADER_SEARCH_PATHS = "$(OF_CORE_HEADERS)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../fmodex/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../cairo/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../FreeImage/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../freetype/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../poco/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../rtAudio/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../kiss/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../tess2/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../sndfile/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../flac/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../ogg/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../vorbis/lib/osx64\"",
-					"\"$(SRCROOT)/../../../../assimp/lib/osx64\"",
+					"$(OF_CORE_LIBS)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-lpthread",
+				);
+				OTHER_LDFLAGS = (
+					"$(LIB_POCO_1)",
+					"$(LIB_POCO_2)",
+					"$(LIB_POCO_3)",
+					"$(LIB_POCO_4)",
+					"$(LIB_CAIRO_1)",
+					"$(LIB_CAIRO_2)",
+					"$(LIB_TESS2)",
+					"$(LIB_FMODEX)",
+					"$(LIB_RTAUDIO)",
+					"$(LIB_ASSIMP)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};

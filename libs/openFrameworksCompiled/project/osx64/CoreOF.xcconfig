@@ -1,0 +1,37 @@
+
+HEADER_OF = "$(OF_PATH)/libs/openFrameworks/**"
+
+HEADER_CAIRO = "$(OF_PATH)/libs/cairo/include"
+HEADER_FMODEX = "$(OF_PATH)/libs/fmodex/include"
+HEADER_FREEIMAGE = "$(OF_PATH)/libs/FreeImage/include"
+HEADER_FREETYPE = "$(OF_PATH)/libs/freetype/include"
+HEADER_KISS = "$(OF_PATH)/libs/kiss/include"
+HEADER_POCO = "$(OF_PATH)/libs/poco/include"
+HEADER_RTAUDIO = "$(OF_PATH)/libs/rtAudio/include"
+HEADER_SNDFILE = "$(OF_PATH)/libs/sndfile/include"
+HEADER_TESS2 = "$(OF_PATH)/libs/tess2/include"
+
+
+LIB_POCO_1 = "$(OF_PATH)/libs/poco/lib/osx64/libPocoFoundation.a"
+LIB_POCO_2 = "$(OF_PATH)/libs/poco/lib/osx64/libPocoNet.a"
+LIB_POCO_3 = "$(OF_PATH)/libs/poco/lib/osx64/libPocoUtil.a"
+LIB_POCO_4 = "$(OF_PATH)/libs/poco/lib/osx64/libPocoXML.a"
+LIB_CAIRO_1 = "$(OF_PATH)/libs/cairo/lib/osx64/libcairo.a"
+LIB_CAIRO_2 = "$(OF_PATH)/libs/cairo/lib/osx64/libpixman-1.a"
+LIB_FREEIMAGE = "$(OF_PATH)/libs/FreeImage/lib/osx64/libfreeimage.a"
+LIB_FREETYPE = "$(OF_PATH)/libs/freetype/lib/osx64/libfreetype.a"
+LIB_FMODEX = "$(OF_PATH)/libs/fmodex/lib/osx64/libfmodex.dylib"
+LIB_RTAUDIO = "$(OF_PATH)/libs/rtAudio/lib/osx64/librtaudio.a"
+LIB_TESS2 = "$(OF_PATH)/libs/tess2/lib/osx64/libtess.a"
+
+LIB_ASSIMP = "$(OF_PATH)/libs/assimp/lib/osx64/libassimp.a"
+LIB_VORBIS_1 = "$(OF_PATH)/libs/vorbis/lib/osx64/libvorbis.a"
+LIB_VORBIS_2 = "$(OF_PATH)/libs/vorbis/lib/osx64/libvorbisenc.a"
+LIB_VORBIS_3 = "$(OF_PATH)/libs/vorbis/lib/osx64/libvorbisfile.a"
+LIB_FLAC = "$(OF_PATH)/libs/flac/lib/osx64/libFLAC.a"
+LIB_OGG = "$(OF_PATH)/libs/ogg/lib/osx64/libogg.a"
+LIB_SNDFILE = "$(OF_PATH)/libs/sndfile/lib/osx64/libsndfile.a"
+LIB_KISS = "$(OF_PATH)/libs/kiss/lib/osx64/libkiss_fft.a"
+
+OF_CORE_LIBS = $(LIB_POCO_1) $(LIB_POCO_2) $(LIB_POCO_3) $(LIB_POCO_4) $(LIB_CAIRO_1) $(LIB_CAIRO_2) $(LIB_TESS2) $(LIB_FMODEX) $(LIB_RTAUDIO) $(LIB_ASSIMP) $(LIB_FREEIMAGE)
+OF_CORE_HEADERS = $(HEADER_OF) $(HEADER_CAIRO) $(HEADER_FMODEX) $(HEADER_FREEIMAGE) $(HEADER_FREETYPE) $(HEADER_KISS) $(HEADER_POCO) $(HEADER_RTAUDIO) $(HEADER_SNDFILE) $(HEADER_TESS2)

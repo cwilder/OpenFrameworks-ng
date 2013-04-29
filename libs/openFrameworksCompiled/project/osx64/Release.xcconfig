@@ -1,0 +1,6 @@
+#include "Shared.xcconfig"
+
+COPY_PHASE_STRIP = YES
+ARCHS = $(NATIVE_ARCH)
+OTHER_CPLUSPLUSFLAGS = -D__MACOSX_CORE__ -lpthread
+ZERO_LINK = NO
